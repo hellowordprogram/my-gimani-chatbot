@@ -1,6 +1,6 @@
 import streamlit as st 
 import google.generativeai as genai
-import webbrowser
+import webbrowser 
 
 if "chat_data" not in st.session_state:
     st.session_state.chat_data = []
@@ -44,3 +44,7 @@ for key, data in st.session_state.chat_data:
             st.markdown(f"👱🏻 : {data}")
         else:
             st.markdown(f"🤖 : {data}")
+
+
+
+
